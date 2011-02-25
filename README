@@ -2,6 +2,9 @@ Google Shorten Url Simple Helper
 
 Author: Zeuxis Lo
 
+Requirement:
+	simplejson [if not build in json support]
+
 Usage:
 	import googl
 
