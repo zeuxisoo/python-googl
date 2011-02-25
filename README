@@ -1,0 +1,23 @@
+Google Shorten Url Simple Helper
+
+Author: Zeuxis Lo
+
+Usage:
+	import googl
+
+	Shorten Url:
+		print googl.short("http://zeuik.com")
+		print googl.shorten("http://zeuik.com")
+	
+		Retrun all response:
+			print googl.short("http://zeuik.com", True)
+			print googl.shorten("http://zeuik.com", True)
+	
+	Expend Url:
+		print googl.expend("http://goo.gl/i002")
+		
+		Return all response:
+			print googl.expend("http://goo.gl/i002", True)
+
+	Error example (will return ""):
+		print googl.expend("http://zeuik.com")
